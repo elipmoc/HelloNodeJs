@@ -142,6 +142,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClientSocket.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SendSocket.cpp" />
+    <ClCompile Include="ServerSocket.cpp" />
+    <ClCompile Include="TcpManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ByteArray.hpp" />
+    <ClInclude Include="ClientSocket.hpp" />
+    <ClInclude Include="def.hpp" />
+    <ClInclude Include="SendSocket.hpp" />
+    <ClInclude Include="ServerSocket.hpp" />
+    <ClInclude Include="tcpframework.hpp" />
+    <ClInclude Include="TcpManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
