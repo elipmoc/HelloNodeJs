@@ -1,4 +1,4 @@
-var http = require('http');
+var http = require('https');
 
 var server = http.createServer();
 server.on('request', doRequest);
