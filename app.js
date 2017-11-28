@@ -1,8 +1,8 @@
-var http = require('https');
+var http = require('http');
 
 var server = http.createServer();
 server.on('request', doRequest);
-server.listen(1234);
+server.listen(process.env.PORT || 8080);
 console.log('Server running!');
 
 // リクエストの処理
