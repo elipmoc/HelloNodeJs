@@ -2,3 +2,5 @@ node_modules
 TestServer/TestServer.VC.VC.opendb
 TestServer/Debug/
 TestServer/TestServer/Debug/
+TestServer/.vs/
+TestServer/TestServer.VC.db
