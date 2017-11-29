@@ -10,11 +10,12 @@
             // メッセージ受信イベント
             function onMessage(event) {
                 if (event && event.data) {
-                    document.write(event.data);
+                    document.body.appendChild(document.createTextNode( event.data));
+                    document.body.appendChild(document.createElement("br"));
                 }
             }
             function onOpen(){
-                socket.send("まず、年齢を教えてくれるかな？");
+                socket.send("接続を要求します");
             }
         </script>
     </body>
