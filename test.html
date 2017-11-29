@@ -4,7 +4,8 @@
     </head>
     <body>
         <script>
-            var socket=new WebSocket("ws:http://localhost:8080/");
+            var socket=new WebSocket("ws:127.1.0.0");
+            socket.send("まず、年齢を教えてくれるかな？");
         </script>
     </body>
 </html>
